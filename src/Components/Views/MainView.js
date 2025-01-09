@@ -144,7 +144,7 @@ const MainView = () => {
               {(errors.title?.type == "required" ||
                 errors.body?.type == "required") && (
                 <Box sx={{ textAlign: "center", pt: 2, color: "#ff0000" }}>
-                  Por favor, llena tsodos los campos antes de guardar
+                  Por favor, llena todos los campos antes de guardar
                 </Box>
               )}
               <Box textAlign="center" sx={{ pt: 4 }}>
